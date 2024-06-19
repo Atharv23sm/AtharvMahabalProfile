@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+@import url("https://fonts.googleapis.com/css2?family=Phonk&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #0000;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #0f9;
+    border-radius: 1px;
+    transition: 1s;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #50f;
+}
+
+@font-face { 
+    font-family: "phonk"; 
+    src: url("/fonts/Phonk.otf"); 
+} 
