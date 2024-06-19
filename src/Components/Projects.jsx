@@ -9,14 +9,14 @@ function Projects({ scroll }) {
             <div className={`w-full flex justify-center text-[14vw] opacity-40 font-phonk tracking-tight mt-24 md:mt-0 leading-none`}>PROJECTS</div>
             <div className={`w-full md:w-[95%] flex flex-col gap-4 md:gap-10 md:rounded-2xl md:bg-[#0008] md:backdrop-blur-sm md:p-8 md:-mt-[7vw] duration-1000 ${scroll >= 2250 ? 'translate-y-0' : 'translate-y-[10vw]'}`}>
                 <div className='w-full flex flex-col md:flex-row gap-4 md:items-center border-b-[1px] border-l-[1px] md:border-0 p-4 pt-0 md:p-0'>
-                    <div className='w-32 md:w-60 h-max relative flex justify-center overflow-hidden'>
+                    <div className='w-32 md:w-72 h-max relative flex justify-center overflow-hidden'>
                         <a href="https://bright-career.vercel.app"><img src={bright} className='w-32 md:w-72 border-[1px] md:border-0' />
                             <div className='absolute w-32 h-32 -right-16 -bottom-20 blur-xl bg-[#ff0] flex justify-start items-start' />
                         </a>
                         <FaArrowUp className='absolute z-30 right-1 bottom-1 text-black rotate-45' size={24} />
                     </div>
-                    <div>
-                        <a href="https://bright-career.vercel.app" className='text-lg md:text-2xl flex items-center gap-2 hover:text-[#ff0] duration-300'>Bright
+                    <div className='w-full group'>
+                        <a href="https://bright-career.vercel.app" className='text-lg md:text-2xl flex items-center gap-2 group-hover:text-[#ff0] duration-300'>Bright
                             <FaArrowUp className='rotate-45' size={16} />
                         </a>
                         <div className='text-xs md:text-sm'>Discover your next career move with Bright.</div>
@@ -28,14 +28,14 @@ function Projects({ scroll }) {
                     </div>
                 </div>
                 <div className='w-full flex flex-col md:flex-row gap-4 items-end md:items-center border-t-[1px] border-r-[1px] md:border-0 p-4 pb-0 md:p-0'>
-                    <div className='w-32 md:w-60 h-max relative flex justify-center overflow-hidden'>
+                    <div className='w-32 md:w-72 h-max relative flex justify-center overflow-hidden'>
                         <a href="https://score-football.vercel.app"><img src={score} className='w-48 md:w-72 border-[1px] md:border-0' />
                             <div className='absolute w-32 h-32 -right-16 -bottom-20 blur-xl bg-[#0f9] flex justify-start items-start' />
                         </a>
                         <FaArrowUp className='absolute z-30 right-1 bottom-1 text-black rotate-45' size={24} />
                     </div>
-                    <div className='text-end md:text-start'>
-                        <a href="https://scroll-football.vercel.app" className='text-lg md:text-2xl flex justify-end md:justify-start items-center gap-2 hover:text-[#0f9] duration-300'>Score
+                    <div className='text-end md:text-start w-full group'>
+                        <a href="https://scroll-football.vercel.app" className='text-lg md:text-2xl flex justify-end md:justify-start items-center gap-2 group-hover:text-[#0f9] duration-300'>Score
                             <FaArrowUp className='rotate-45' size={16} />
                         </a>
                         <div className='text-xs md:text-sm'>Never miss a game with Score Web-App</div>
