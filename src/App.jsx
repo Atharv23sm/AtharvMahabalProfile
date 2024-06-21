@@ -15,9 +15,9 @@ function App() {
   console.log(scroll)
 
   return (
-    <div className="w-full h-screen bg-white flex flex-col items-center md:gap-4 md:pt-4 md:pb-12 md:px-12 text-white font-[poppins] select-none">
+    <div className="w-full h-[100vh] bg-white flex flex-col items-center md:gap-4 md:pt-4 md:pb-12 md:px-12 text-white font-[poppins] select-none">
       <Navbar />
-      <div className="w-full bg-bg1 bg-cover md:rounded-3xl overflow-y-scroll overflow-x-hidden p-4 scroll-smooth relative"
+      <div className="w-full h-full bg-bg1 bg-cover md:rounded-3xl overflow-y-scroll overflow-x-hidden p-4 scroll-smooth relative"
         onScroll={(e) => setScroll(Math.trunc(e.target.scrollTop))}>
         <Home />
         <About scroll={scroll} />

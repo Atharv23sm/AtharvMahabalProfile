@@ -3,7 +3,7 @@ import atharv from "/img/atharv1.jpg"
 function Home() {
 
     return (
-        <div className="w-full flex items-center justify-center pb-64 pt-[20vh]">
+        <div className="w-full h-full flex items-center justify-center">
 
             <div className="flex flex-col md:flex-row items-center gap-10 md:gap-0 relative">
 

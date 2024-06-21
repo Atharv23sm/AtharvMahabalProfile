@@ -5,8 +5,8 @@ import { FaArrowUp } from 'react-icons/fa6'
 
 function Activity({ scroll }) {
     return (
-        <div className="w-full flex flex-col items-center gap- pb-20 md:pb-20" id="activity">
-            <div className={`info_title text-[17vw] mt-28 md:mt-10`}>ACTIVITY</div>
+        <div className="w-full h-full flex flex-col items-center gap-4" id="activity">
+            <div className={`info_title text-[17vw] mt-20 md:mt-0`}>ACTIVITY</div>
             <div className={`md:w-[95%] md:backdrop-blur-sm md:bg-[#0008] md:-mt-[8.6vw] md:rounded-2xl
                 flex flex-col md:flex-row items-center justify-center gap-6 p-4 md:p-10 md:text-lg duration-1000
                 ${scroll >= 2900 ? 'translate-y-0' : 'translate-y-[10vw]'}`}>

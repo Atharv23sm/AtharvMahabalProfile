@@ -5,9 +5,9 @@ import { FaGithubAlt } from 'react-icons/fa6'
 
 function Projects({ scroll }) {
     return (
-        <div className="w-full flex flex-col items-center md:pb-20" id="projects">
-            <div className={`info_title text-[14vw] mt-24 md:mt-0`}>PROJECTS</div>
-            <div className={`info_container space-y-4 p-0 md:-mt-[7.1vw] ${scroll >= 2250 ? 'translate-y-0' : 'translate-y-[10vw]'}`}>
+        <div className="w-full h-full flex flex-col gap-4 items-center" id="projects">
+            <div className={`info_title text-[14vw] mt-20 md:mt-0`}>PROJECTS</div>
+            <div className={`info_container space-y-4 p-0 md:-mt-[8.1vw] ${scroll >= 2250 ? 'translate-y-0' : 'translate-y-[10vw]'}`}>
                 <div className='project_container border-l p-4'>
                     <div className='project_img_container'>
                         <a href="https://bright-career.vercel.app"><img src={bright} className='w-32 md:w-72 border md:border-0' />

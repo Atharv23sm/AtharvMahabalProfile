@@ -2,8 +2,8 @@ import { FaEnvelope, FaGithub, FaInstagram, FaPhone, FaLinkedin, FaYoutube } fro
 
 function Contact({ scroll }) {
   return (
-    <div className="w-full flex flex-col items-center gap-4" id="contact">
-      <div className={`info_title text-[17vw] mt-10 md:mt-10`}>CONTACT</div>
+    <div className="w-full h-full flex flex-col items-center gap-4" id="contact">
+      <div className={`info_title text-[17vw] mt-20 md:mt-0`}>CONTACT</div>
       <div className={`md:w-[95%] md:bg-[#0008] md:backdrop-blur-sm grid grid-cols-3 md:flex md:flex-wrap gap-4 md:gap-8 items-center justify-center text-3xl md:rounded-2xl py-24 md:-mt-[9.5vw] duration-1000
         ${scroll >= 3400 ? 'translate-y-0' : 'translate-y-[10vw]'}`}>
         <a className="contact_a group" href="mailto:atharvsm23@gmail.com">

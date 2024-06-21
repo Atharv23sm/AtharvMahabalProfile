@@ -9,12 +9,13 @@
     position: absolute;
     z-index: 40;
     height: 8rem;
-    top: 0;
+    top: -2rem;
     border-radius: 50%;
     filter: blur(30px)
 }
 
 .info_title {
+    display: flex;
     opacity: 0.4;
     font-family: phonk;
     letter-spacing: -0.025em;

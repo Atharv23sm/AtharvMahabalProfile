@@ -24,6 +24,7 @@ function Navbar() {
         <div className={`absolute bg-white right-4 md:right-0 md:bg-transparent md:p-0 md:mt-0 md:mr-0 ${!isBar && '-mt-4 -mr-4  p-4'}`}>
           {(isBar && !isWide) ? <FaBars onClick={() => setIsBar(false)} /> :
             <div className="flex flex-col md:flex-row items-end md:items-center gap-4 md:gap-[1.5vw] duration-500">
+              {(!isBar && !isWide) && <FaTimes onClick={() => setIsBar(true)} />}
               {[['#about', 'About'], ['#education', 'Education'], ['#skills', 'Skills'], ['#projects', 'Projects'], ['#activity', 'Activity'], ['#contact', 'Contact']].map(
                 (i) => {
                   return (
@@ -35,7 +36,6 @@ function Navbar() {
                   )
                 }
               )}
-              {(!isBar && !isWide) && <FaTimes onClick={() => setIsBar(true)} />}
             </div>}
         </div>
       </div>

@@ -10,7 +10,7 @@ export default {
         'bg1': 'url("/img/back.jpg")'
       },
       fontFamily: {
-        'phonk': ['phonk','sans'],
+        'phonk': ['phonk', 'sans'],
       },
       keyframes: {
         'motion': {
@@ -25,14 +25,14 @@ export default {
           transform: 'translateX(0%)'
         },
         'slide': {
-          '0%':{transform: 'translateX(20vw)'},
-          '30%':{transform: 'translateX(20vw)'},
-          '100%':{transform: 'translateX(0)'}
+          '0%': { transform: 'translateX(20vw)' },
+          '30%': { transform: 'translateX(20vw)' },
+          '100%': { transform: 'translateX(0)' }
         },
         'wipe': {
-          '0%':{transform: 'translateX(-200%)'},
-          '20%':{transform: 'translateX(-200%)'},
-          '100%':{transform: 'translateX(0)'}
+          '0%': { transform: 'translateX(-200%)' },
+          '20%': { transform: 'translateX(-200%)' },
+          '100%': { transform: 'translateX(0)' }
         },
       }
     },

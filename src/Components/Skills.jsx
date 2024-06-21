@@ -13,8 +13,8 @@ import python from '/img/python.png'
 
 function Skills({ scroll }) {
   return (
-    <div className="w-full flex flex-col gap-4 md:gap-0 items-center md:pb-32" id="skills">
-      <div className={`info_title text-[23vw] mt-24 md:mt-0`}>SKILLS</div>
+    <div className="w-full h-full flex flex-col gap-4 md:gap-0 items-center" id="skills">
+      <div className={`info_title text-[23vw] mt-20 md:mt-0`}>SKILLS</div>
       <div className={`info_container flex flex-col items-center md:-mt-[11.5vw] ${scroll >= 1700 ? 'translate-y-0' : 'translate-y-[10vw]'}`}>
         <div className='w-max grid grid-cols-4'>
           {[[[mongodb, express, react], [node], false], [[tailwind, python, mysql], [postgres], true]].map(
@@ -27,7 +27,7 @@ function Skills({ scroll }) {
                   )
                 })
               }
-                <div className={`skill_box md:size-[10vw] md:p-6 ${i[2] && 'border-t border-[#666]'}`}>
+                <div className={`skill_box md:size-[10vw] md:p-6 ${i[2] && 'border-t border-[#666]'}`} >
                   <img src={i[1]} className='' loading='lazy' /></div>
               </>
             })}
