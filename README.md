@@ -1,7 +1,7 @@
 # Atharv Mahabal's Profile Page 🚀
 
-This repository hosts the code for my personal website built using React and styled with Tailwind CSS.
-The website is live at [atharv-mahabal.vercel.app](https://atharv-mahabal.vercel.app).
+This repository hosts the code for my personal website built using React and styled with Tailwind CSS. The website is live at
+- [atharv-mahabal.vercel.app](https://atharv-mahabal.vercel.app).
 
 ## Technologies Used 🛠️
 
