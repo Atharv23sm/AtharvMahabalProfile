@@ -1,8 +1,15 @@
-# React + Vite
+# Atharv Mahabal's Profile Page 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository hosts the code for my personal website built using React and styled with Tailwind CSS.
+The website is live at [atharv-mahabal.vercel.app](https://atharv-mahabal.vercel.app).
 
-Currently, two official plugins are available:
+## Technologies Used 🛠️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: The website is built using React, a popular JavaScript library for building user interfaces.
+- **Tailwind CSS**: I used Tailwind CSS for styling the website.
+- **Vercel**: The website is deployed using Vercel, which provides a seamless deployment experience for frontend projects.
+
+## Features ✨
+
+- Modern UI: Utilizes Tailwind CSS for a modern user interface.
+- Easy Navigation: Simple and intuitive navigation to explore different sections.
