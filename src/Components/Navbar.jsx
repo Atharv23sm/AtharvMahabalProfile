@@ -19,11 +19,11 @@ function Navbar() {
       <div className="corner-projection w-64 md:h-40 bg-[#0fb] -left-40 md:-left-8 animate-[motion_7s_infinite]" />
       <div className="corner-projection w-40 md:h-24 bg-[#0f9] -left-24 md:-left-16 animate-[motion_5s_infinite]" />
 
-      <div className={`w-full bg-white md:bg-transparent p-4 md:p-0 text-black flex ${!isBar ? 'items-start' : 'items-center'} fixed z-40 top-0 left-0 md:relative`}>
+      <div className={`w-full h-max p-4 bg-white md:bg-transparent flex ${!isBar ? 'items-start' : 'items-center'} fixed md:relative z-40 top-0 left-0`}>
         <a href="/" className="font-phonk text-xl">ATHARV</a>
-        <div className={`absolute bg-white right-4 md:right-0 md:bg-transparent md:p-0 md:mt-0 md:mr-0 ${!isBar && '-mt-4 -mr-4  p-4'}`}>
+        <div className={`absolute bg-white right-4 md:right-0 md:bg-transparent md:p-0 md:mt-0 md:mr-0 ${!isBar && '-mt-4 -mr-4 p-4'}`}>
           {(isBar && !isWide) ? <FaBars onClick={() => setIsBar(false)} /> :
-            <div className="flex flex-col md:flex-row items-end md:items-center gap-4 md:gap-[1.5vw] duration-500">
+            <div className="flex flex-col md:flex-row items-end md:items-center gap-4 md:gap-[0.6vw] duration-500">
               {(!isBar && !isWide) && <FaTimes onClick={() => setIsBar(true)} />}
               {[['#about', 'About'], ['#education', 'Education'], ['#skills', 'Skills'], ['#projects', 'Projects'], ['#activity', 'Activity'], ['#contact', 'Contact']].map(
                 (i) => {

@@ -12,12 +12,11 @@ import Home from "./Components/Home"
 function App() {
 
   const [scroll, setScroll] = useState(0)
-  console.log(scroll)
 
   return (
-    <div className="w-full h-[100vh] bg-white flex flex-col items-center md:gap-4 md:pt-4 md:pb-12 md:px-12 text-white font-[poppins] select-none">
+    <div className="w-full h-screen md:px-12 md:pb-28 bg-white font-[figtree] select-none">
       <Navbar />
-      <div className="w-full h-full bg-bg1 bg-cover md:rounded-3xl overflow-y-scroll overflow-x-hidden p-4 scroll-smooth relative"
+      <div className="w-full h-full bg-bg1 bg-cover md:rounded-3xl relative p-4 overflow-y-scroll overflow-x-hidden scroll-smooth text-white"
         onScroll={(e) => setScroll(Math.trunc(e.target.scrollTop))}>
         <Home />
         <About scroll={scroll} />

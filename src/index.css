@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+@import url('https://fonts.googleapis.com/css?family=Figtree:400');
 @import url("https://fonts.googleapis.com/css2?family=Phonk&display=swap");
 
 @tailwind base;
@@ -46,7 +46,7 @@
     flex-direction: column;
     gap: 1rem;
     padding-top: 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff4;
 }
 
 .project_img_container {
@@ -111,7 +111,6 @@
     border-radius: 50%;
     position: absolute;
     padding: 3rem;
-    filter: blur(10px);
 }
 
 @media only screen and (min-width: 768px) {
