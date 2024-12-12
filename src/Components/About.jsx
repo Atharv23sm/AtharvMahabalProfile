@@ -1,4 +1,4 @@
-import atharv from "/img/atharv2.jpg";
+import atharv from "/img/atharv1.jpg";
 
 function About({ scroll }) {
   return (
@@ -26,7 +26,7 @@ function About({ scroll }) {
 
         <div>
           Currently pursuing Bachelor's degree in Computer Applications, eager
-          to kick-start a career in full stack development. <br />A fast
+          to kick-start a career in Tech Industry. <br />A fast
           learner, detail-oriented, and committed to staying updated with the
           latest technologies. <br />
           Excited to contribute my skills and enthusiasm to a dynamic

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg1': 'url("/img/back.jpg")'
+        'bg1': 'url("/img/back1.jpg")'
       },
       fontFamily: {
         'phonk': ['phonk', 'sans'],
@@ -21,8 +21,9 @@ export default {
           '30%': { transform: 'translateY(15%)' },
           '70%': { transform: 'translatex(15%)' },
 
-          '100%': { transform: 'translateY(0%)' },
-          transform: 'translateX(0%)'
+          '100%': { 
+            transform: 'translateY(0%)' },
+            transform: 'translateX(0%)'
         },
         'slide': {
           '0%': { transform: 'translateX(20vw)' },
