@@ -30,7 +30,7 @@ function Projects({ scroll }) {
         <hr />
         <div className="text-end md:text-start w-full group">
           <a
-            href="https://scroll-football.vercel.app"
+            href="https://score-football.vercel.app"
             className="project_link justify-end text-2xl md:justify-start group-hover:text-[#0f9] underline"
           >
             Score
