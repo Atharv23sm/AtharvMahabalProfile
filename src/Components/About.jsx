@@ -1,13 +1,14 @@
 import atharv from "/img/atharv1.jpg";
 
-function About({ scroll }) {
+function About() {
   return (
-    <div className=" w-full md:h-full flex flex-col items-center gap-8" id="about">
+    <div
+      className=" w-full md:h-full flex flex-col items-center gap-8"
+      id="about"
+    >
       <div className={`info_title text-[22vw] mt-20 md:mt-0`}>ABOUT</div>
       <div
-        className={`info_container flex flex-col items-center gap-8 p-0 md:p-4 md:-mt-[13.2vw] ${
-          scroll >= 500 ? "md:translate-y-0" : "md:translate-y-[10vw]"
-        }`}
+        className={`info_container flex flex-col items-center gap-8 p-0 md:p-4 md:-mt-[13.2vw]`}
       >
         <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-center">
           <div>
@@ -26,9 +27,9 @@ function About({ scroll }) {
 
         <div>
           Currently pursuing Bachelor's degree in Computer Applications, eager
-          to kick-start a career in Tech Industry. <br />A fast
-          learner, detail-oriented, and committed to staying updated with the
-          latest technologies. <br />
+          to kick-start a career in Tech Industry. <br />A fast learner,
+          detail-oriented, and committed to staying updated with the latest
+          technologies. <br />
           Excited to contribute my skills and enthusiasm to a dynamic
           development team.
         </div>

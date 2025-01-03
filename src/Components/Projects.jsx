@@ -1,18 +1,14 @@
 import { FaArrowUp } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa6";
 
-function Projects({ scroll }) {
+function Projects() {
   return (
     <div
       className="w-full md:h-full flex flex-col gap-4 items-center"
       id="projects"
     >
       <div className={`info_title text-[14vw] mt-20 md:mt-0`}>PROJECTS</div>
-      <div
-        className={`info_container space-y-4 p-0 md:-mt-[8.1vw] ${
-          scroll >= 2250 ? "md:translate-y-0" : "md:translate-y-[10vw]"
-        }`}
-      >
+      <div className={`info_container space-y-4 p-0 md:-mt-[8.1vw] `}>
         <div className="w-full group">
           <a
             href="https://resolve-by-atharv.vercel.app"
