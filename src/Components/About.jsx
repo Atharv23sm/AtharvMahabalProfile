@@ -27,7 +27,7 @@ function About() {
 
         <div>
         Aspiring finance enthusiast pursuing management studies 
-        with a technical background in computer applications, 
+        with a technical background in computer applications,<br />
         aiming to apply analytical skills to real-world business problems and contribute to strategic initiatives.
         </div>
       </div>
