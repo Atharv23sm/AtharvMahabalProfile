@@ -21,17 +21,14 @@ function About() {
 
           <div className="space-y-2 md:space-y-4 text-2xl md:text-[2.7vw] font-bold">
             <div>Atharv Shrikant Mahabal</div>
-            <div className="text-lg md:text-xl">Pune/Sawantwadi</div>
+            <div className="text-lg md:text-xl">Mumbai/Sawantwadi</div>
           </div>
         </div>
 
         <div>
-          Currently pursuing Bachelor's degree in Computer Applications, eager
-          to kick-start a career in Tech Industry. <br />A fast learner,
-          detail-oriented, and committed to staying updated with the latest
-          technologies. <br />
-          Excited to contribute my skills and enthusiasm to a dynamic
-          development team.
+        Aspiring finance enthusiast pursuing management studies 
+        with a technical background in computer applications, 
+        aiming to apply analytical skills to real-world business problems and contribute to strategic initiatives.
         </div>
       </div>
     </div>
