@@ -1,7 +1,7 @@
 import tailwind from "/img/tailwind.png";
-import react from "/img/react.png";
-import node from "/img/node.png";
-import express from "/img/express.png";
+import powerpoint from "/img/powerpoint.png";
+import powerbi from "/img/powerbi.png";
+import excel from "/img/excel.png";
 import mongodb from "/img/mongodb.png";
 import mysql from "/img/mysql.png";
 import postgres from "/img/postgres.png";
@@ -19,8 +19,8 @@ function Skills() {
       >
         <div className="w-max grid grid-cols-4">
           {[
-            [[mongodb, express, react], [node], false],
-            [[tailwind, python, mysql], [postgres], true],
+            [[excel, powerpoint, powerbi], [postgres], false],
+            [[mongodb, python, mysql], [tailwind], true],
           ].map((i) => {
             return (
               <>

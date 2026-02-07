@@ -13,7 +13,7 @@ function Home() {
                     <div className="md:animate-[wipe_3s]">
                         <div>ATHARV</div>
                         <div>MAHABAL</div>
-                        <div className="text-lg md:text-3xl pt-4 md:pt-8">Tech Enthusiast</div>
+                        <div className="text-lg md:text-3xl pt-4 md:pt-8">Management Student</div>
                     </div>
                 </div>
             </div>

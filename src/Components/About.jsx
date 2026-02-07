@@ -1,4 +1,4 @@
-import atharv from "/img/atharv1.jpg";
+import atharv from "/img/atharv1.jpeg";
 
 function About() {
   return (
