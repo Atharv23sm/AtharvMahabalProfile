@@ -14,14 +14,13 @@ function Education() {
                     <div className="font-bold text-md">Under-graduation (2022-2025)</div>
                     <div className="text-md">Bachelor of Computer Applications </div>
                     <div className='text-sm'>
-                        MES's Abasaheb Garware College, Pune
+                        MES's Abasaheb Garware College, Pune<br/>
                         Passed with 90.40%
                     </div>
                 </div>
                 <div className='space-y-2'>
                     <div className="font-bold text-md">HSC (2020-2022) </div>
-                    <div className="text-sm">Dr. V. K. Toraskar Jr College, Banda
-                        Sawantwadi, Sindhudurg
+                    <div className="text-sm">Dr. V. K. Toraskar Jr College, Banda, Sawantwadi<br/>
                         Passed with 86%
                     </div>
                 </div>
